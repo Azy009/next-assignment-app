@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+.badge-completed {
+  background-color: #DCFCE7;
+  color: #15803D;
+}
+
+.badge-incomplete {
+  background-color: #FEF9C3;
+  color: #A16207;
+}
+
+.badge-missing {
+  background-color: #FCE7F3;
+  color: #BE185D;
+}
